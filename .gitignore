@@ -1,0 +1,13 @@
+# Ignore compiled model weights and large binaries
+*.onnx
+*.pth
+*.h5
+*.weights
+*.bin
+
+# Ignore local environment variables and system files
+.env
+.DS_Store
+dist/
+node_modules/
+__pycache__/
